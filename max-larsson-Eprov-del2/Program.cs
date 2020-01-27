@@ -10,7 +10,6 @@ namespace max_larsson_Eprov_del2
         static void Main(string[] args)
         {
             Console.WriteLine("somewhat homofil");
-            Console.WriteLine("FBI gillar mig inte");
             Console.WriteLine("homofil");
         }
         static int Limit() //metod som tar in användarens input för hur mycket den ska kunna bära
