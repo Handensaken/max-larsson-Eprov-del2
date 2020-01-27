@@ -9,19 +9,9 @@ namespace max_larsson_Eprov_del2
     {
         static void Main(string[] args)
         {
-            //skapar arrayer för namn och deras priser
-            string[] names = { "bread", "jam", "milk", "bone hurting juice", "juice that makes you buy bone hurting juice" };
-            int[] weight = { 0, 0, 0, 0, 0 };
-            //skapar en array som är detsamma som listan Market()
-            var dicc = new Dictionary<string, int>();
-            dicc = Market(names, weight);
-            //skriver ut vad du orkar bära
-            Console.WriteLine("items you can potentially carry:");
-                Console.WriteLine(dicc["hje"]);
-            Console.WriteLine(dicc["hej"]);
-            Console.WriteLine(dicc["jhe"]);
-
-            Press();
+            Console.WriteLine("somewhat homofil");
+            Console.WriteLine("FBI gillar mig inte");
+            Console.WriteLine("homofil");
         }
         static int Limit() //metod som tar in användarens input för hur mycket den ska kunna bära
         {
